@@ -96,7 +96,18 @@ lspconfig["typos_lsp"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
 })
+
 lspconfig["clangd"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
+
+lspconfig["pylyzer"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
+
+lspconfig["pylsp"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
 })
