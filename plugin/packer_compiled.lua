@@ -129,6 +129,11 @@ _G.packer_plugins = {
     path = "/Users/milindrao/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/Users/milindrao/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/Users/milindrao/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
@@ -176,11 +181,6 @@ _G.packer_plugins = {
     path = "/Users/milindrao/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
-  ["onedarker.nvim"] = {
-    loaded = true,
-    path = "/Users/milindrao/.local/share/nvim/site/pack/packer/start/onedarker.nvim",
-    url = "https://github.com/lunarvim/onedarker.nvim"
-  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/milindrao/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -215,11 +215,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/milindrao/.local/share/nvim/site/pack/packer/start/vim-bbye",
     url = "https://github.com/moll/vim-bbye"
-  },
-  ["vim-nightfly-guicolors"] = {
-    loaded = true,
-    path = "/Users/milindrao/.local/share/nvim/site/pack/packer/start/vim-nightfly-guicolors",
-    url = "https://github.com/bluz71/vim-nightfly-guicolors"
   }
 }
 
